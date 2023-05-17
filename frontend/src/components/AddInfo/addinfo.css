@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Typography */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  #me h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+  .info_label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 80px;
+  }
+  /* label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+  } */
+  .info_input {
+    display: block;
+    padding: 8px;
+    width: 80%;
+    margin-bottom: 1.5em;
+    border: 2px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+
+  input[type="submit"] {
+    display: block;
+    padding: 12px 10px;
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #EF5350;
+  }
+  
+  /* Layout */
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 2em;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #FF5722;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+   
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #me {
+    width: 80%;
+    margin: auto;
+  }
+  #me form {
+    padding-left: 180px;
+  }

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear::after {  
+    content: "";  clear: both;  display: table;
+
+}
+
+.container__navbar__optionlist ul li{
+    color: white;
+    border-bottom:1px solid #ccc ;
+    cursor: pointer;
+    padding: 20px;
+}
+
+#container .container__content{
+    background-color: #ccc;
+    float: left;
+    height: 100vh;
+    padding: 20px 30px 20px 30px;
+    width: 100%;
+}
+.container__content .container__content__optiontitle{
+    margin-bottom:10px ;
+}
+.container__content__optiontitle h1{
+    font-weight: 100;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+}
+.container__content__optionbody{
+    background-color: #fff;
+    padding: 1px 20px 20px 20px
+}
+.container__content__optionbody .container__content__optionbody__header{
+    height: 40px;
+    background-color:#CCFF99;
+}
+.container__content__optionbody .container__content__optionbody__infortable{
+    margin-top: 20px;
+}
+.container__content__optionbody__infortable__quantily #quantily{
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.container__content__optionbody__infortable__search input{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.container__content__optionbody .container__content__optionbody__table{
+    
+    margin: auto;
+    margin-top: 20px;
+}
+.container__content__optionbody__table #table__productlist{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+#table__productlist thead tr th{
+    padding: 10px;
+}
+#table__productlist, #table__productlist td, #table__productlist th {
+    border: 1px solid #ccc;
+}
+tbody tr:nth-child(2n+1)>td{
+    background-color: #EEEEEE;
+}
+table img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+#table__productlist td .deleteproduct{
+    background-color:#FF3333;
+    display: inline-block;
+    min-width: 50px;
+    min-height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#table__productlist td .editproduct{
+    background-color:#66CCFF;
+    display: inline-block;
+    min-width: 50px;
+    min-height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.setupproduct{
+    cursor: pointer;
+    color: white;
+}
